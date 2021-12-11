@@ -13,10 +13,10 @@ main(){
 			toplam[c]+=1;	}}}
 	for(i=0;i<100;i++){	
 		for(j=0;j<2;j++){
-			printf("%d. atis %d. zar:%d\n",i+1,j+1,zar[i][j]);
 			if(zar[i][0]==zar[i][1]){
-				printf("%d .atisinda zarlar birbirine esittir degeri:%d\n",i+1,zar[i][1]);		}
-			}
+				printf("%d .atisda zarlar birbirine esittir degeri:%d\n",i+1,zar[i][1]);	
+				break;	}
+				printf("%d. atis %d. zar:%d\n",i+1,j+1,zar[i][j]);	}
 	   }
 		for(c=0;c<6;c++){
 		printf("toplam %d tane %d. vardir.\n",toplam[c],c+1);}
